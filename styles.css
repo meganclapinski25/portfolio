@@ -5,6 +5,28 @@
     padding: 15px;
     margin: 0;
 }
+.about-me{
+    width: 50%;
+}
+.about-me h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-me h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .headshot-img{
     padding: 15px;
+}
+
+.hot-links{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.hot-links .btn{
+    margin: 0 10px;
 }
