@@ -1,0 +1,10 @@
+.about-me-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 0;
+}
+.headshot-img{
+    padding: 15px;
+}
