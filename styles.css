@@ -46,10 +46,21 @@
 .project-header{
     display: flex;
     justify-content: center;
-   margin: auto;
-   width: 100%;
+    margin: auto;
+    width: 100%;
+    padding-top:100px;
 }
 .project-cards{
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
-    padding:20px;
+    
+}
+.card{
+    margin-right: 15px;
+}
+.btn-bottom-left {
+    position:relative;
+    display:inline;
+   
 }
