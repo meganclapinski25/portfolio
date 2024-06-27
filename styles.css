@@ -53,7 +53,7 @@
 .project-cards{
     display: flex;
     justify-content: center;
-    
+    align-items: center;
 }
 .card{
     margin-right: 15px;
@@ -63,7 +63,10 @@
     display:inline;
    
 }
-.container img{
-    align-items: center;
-}
 
+
+.col-6{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
