@@ -75,3 +75,70 @@
     justify-content: center;
     padding: 30px;
 }
+
+.card{
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+  }
+    
+
+
+.card:hover{
+
+    box-shadow: 5px 6px 6px 2px #e9ecef;
+    transform: scale(1.1);
+}
+
+/* Ensures larger text and easier readability on smaller screens */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+    
+    /* Make the navbar collapse items stack vertically */
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    /* Adjust image and card size */
+    .card {
+        width: 100%; /* Cards take full width on small screens */
+        margin-bottom: 15px;
+    }
+
+    .card-img-top {
+        height: auto;
+        width: 100%;
+    }
+
+    /* Stack buttons vertically */
+    .hot-links button {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* For medium-sized screens */
+@media (max-width: 768px) {
+    .col-6, .col-4 {
+        flex: 0 0 100%; /* Cards stack in one column */
+        max-width: 100%;
+    }
+}
+
+/* For larger screens */
+@media (min-width: 992px) {
+    .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-4 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
