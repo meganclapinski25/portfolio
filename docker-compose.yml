@@ -1,0 +1,9 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "81:81"
+    volumes:
+      - ./portfolio:/usr/share/nginx/html
